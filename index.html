@@ -4,55 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Forms and tables</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-            position: relative;
-            background-color: antiquewhite;
-            color: #343a40;
-        }
-        #login{
-            color:black;
-            background-color:coral;
-            padding: 12px 100px;
-            border-radius: 10px;
-
-        }
-        .login:link,
-        .login:visited{
-            font-size: 24px;
-            color: #fff;
-
-        }
-        #signup{
-        
-        font-size: 12px;
-        font-weight: bolder;        
-    }
-        .form{
-            position: absolute;
-            top: 0;
-            left: 500px;
-    
-
-        }
-        input{
-            padding: 12px 100px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <img src="photo.jpg" alt="image" id="photo"
     width="480"
     height="700">
-    
-    <form class="form" action="SignUp.html"method="get" 
+    <div class="form">
+    <form action="SignUp.html"method="get" 
     action="login.html" method="get">
 
         <h3>Hey, hello!</h3>
@@ -66,6 +27,8 @@
         <button id="login" type="submit"><a href="./login.html" class="login">LogIn</a></button>
         <br><br/>
         <p>Don't have an account?<button id="signup" type="submit">SignUp</button></p>
+
+     </div>   
         </body>
 
 

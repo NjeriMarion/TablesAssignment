@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    color: #343a40;
+}
+#login{
+    color:black;
+    background-color:coral;
+    padding: 12px;
+    border-radius: 30px;
+
+
+
+}
+.login:link,
+.login:visited{
+    font-size: 24px;
+
+
+
+}
+#signup{
+
+font-size: 12px;
+font-weight: bolder;        
+}
+.form{
+    top: 0;
+    left: 500px;
+    margin-left: 2%;
+
+
+}
+input{
+    padding: 12px 100px;
+
+}
+button{
+    padding: 20;
+    border: none;
+    color: blueviolet;
+}
+.bodyTable{
+    width: 1000px;
+    display: flex;
+    justify-content:left;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+table{
+    border-collapse: collapse;
+
+}
+/* td{
+    padding: 5px;
+} */
+#topline{
+    color: black;
+    background-color: burlywood;
+}   
+td,
+th{
+    border: 1px solid #444;
+    padding: 16px 20px;
+    text-align: left;
+}
+.form{
+    /* display: flex; */
+    top: 0;
+    left: 500px;
+    margin-top: 5%;
+}
+.bodySignup{
+    background-color:antiquewhite
+}
